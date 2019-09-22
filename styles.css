@@ -12,7 +12,24 @@ h1 {
     color: tomato;
     display: none;
 }
-
+form {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 30px;
+    background-color: lightgrey;
+    border: 2px solid tomato;
+    padding: 30px;
+    width: 40%;
+}
+input {
+    height: 36px;
+    font-size: 30px;
+    color: gray;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 button {
     display: block;
     width: 135px;
