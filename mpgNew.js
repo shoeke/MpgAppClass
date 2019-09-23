@@ -6,8 +6,13 @@ function calc() {
   
       if(!isNaN(result)){
         message.innerHTML="You get " + result + " miles per gallon";
+        message.style.color = 'tomato';
+        document.getElementById("after").style.display = 'block';
+        document.getElementById("reset").style.display = 'block';
       } else {
         alert("Please be sure you entered valid numbers");
       }
   }
-  
+  function refreshPage(){
+    window.location.reload();
+} 

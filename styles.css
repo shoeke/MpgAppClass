@@ -13,20 +13,17 @@
 }
 
 h1 {
-
+    color: cornflowerblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 15px;
     text-align: center;
-    margin: 100px auto 50px;
+    margin: 100px auto 25px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255),  rgba(255, 255, 255, 0));
 }
-#before {
-    color: cornflowerblue;
-    display: block;
-}
 #after {
-    color: tomato;
     display: none;
+    color: tomato;
+    margin: 25px auto;
 }
 .form_replace {
     text-align: center;
@@ -35,7 +32,7 @@ h1 {
     font-size: 30px;
     background-color: rgba(211, 211, 211, 0.82);
     border: 2px solid tomato;
-    padding: 30px;
+    padding-top: 30px;
     width: 40%;
 }
 input {
@@ -46,6 +43,7 @@ input {
     margin-top: 15px;
     margin-bottom: 30px;
     text-align: center;
+    padding: 5px 25px;
 }
 
 button {
@@ -62,4 +60,9 @@ button {
     margin: 25px auto 15px;
     box-shadow: 1px 1px 3px lightgrey;
     outline: none;
+}
+
+#reset {
+    background-color: cornflowerblue;
+    display: none;
 }
